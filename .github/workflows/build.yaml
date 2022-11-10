@@ -5,7 +5,6 @@ on:
     branches:
       - "main"
     paths-ignore:
-      - "*.md"
       - LICENCE
 env:
   REGISTRY: ghcr.io
@@ -51,7 +50,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: docker/Dockerfile
+          file: Dockerfile
           platforms: linux/amd64
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
