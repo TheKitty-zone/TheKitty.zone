@@ -3,7 +3,7 @@ name: Build and release container image
 on:
   push:
     branches:
-      - "master"
+      - "main"
     paths-ignore:
       - "*.md"
       - LICENCE
