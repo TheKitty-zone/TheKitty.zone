@@ -1,6 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-draft: true
+categories: ["note"] # note, reply, anything else
+reply: # If you choose "reply" above, the URL you're replying to
+tags: 
 ---
-
