@@ -10,7 +10,7 @@ Also I feel the need to express myself on the internet while not being like ever
 About me
 ---
 
-I'm just someone that is interested in DevOps and Softwae Engineering.\
+I'm just someone that is interested in DevOps and Software Engineering.\
 I go by 11tuvork28/Zozo depending on where you see me online.\
 I my opinion social media is really really unproductive and to say the least its plain dangerous but who has their own homepage right? right? :>)
 
