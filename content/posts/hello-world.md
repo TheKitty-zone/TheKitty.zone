@@ -3,6 +3,7 @@ title: Hello World
 date: 2022-11-09T00:05:43 
 categories: ["post"] 
 tags:
+    - info
 ---
 
 Ah uh hai there!\
