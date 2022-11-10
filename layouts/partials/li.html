@@ -30,7 +30,7 @@
 
     {{ if in .Params.Categories "note" }}
     <article class="md p-summary p-name e-content">
-      {{ else if in .Params.Categories "reply" }}
+    {{ else if in .Params.Categories "reply" }}
       <article class="md p-summary e-content">
         <h2 class="p-name reply-context">
           {{ with .Params.Reply }}
@@ -45,12 +45,12 @@
             {{ .Title }}
           </h2>
       {{ end }}
-          {{ .Summary | markdownify }}
+          {{ .Summary }}
           {{ $img := (.Resources.ByType "image").GetMatch "*" }}
           {{ if .Truncated }}...
-          <div id="open">
-            <a href="{{ .Permalink }}" class="properties"><strong>[ open me ]</strong></a>
-          </div>
+            <div id="open">
+              <a href="{{ .Permalink }}" class="properties"><strong>[ open me ]</strong></a>
+            </div>
           {{ end }}
         </article>
         {{ partial "properties" . }}
