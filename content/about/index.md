@@ -35,7 +35,7 @@ That's it! I really don't need more to get a good understanding of what is going
 You might ask yourself but can't she correlate requests to users?\
 No, I can't since these log lines I get from traefik don't contain any Personal indetifyable information about the client.\
 You don't trust me? Good!\
-You can just visit this repository [here]() and check the traefik deployment file youself.
+You can just visit this repository [here](https://github.com/11Tuvork28/k3s-infra/blob/d41397556d7be647ffdc8e6696a3f22e932d8c4d/deployments/traefik/traefik.yaml#L30) and check the traefik deployment file youself.
 
 
 
