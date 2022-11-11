@@ -14,7 +14,9 @@
                     {{ .Site.Title }}
                 </a>
                 {{ $t := .Site.GetPage "/about" }}
-                <a id="site__name" href="{{ $t.Permalink }}">{{ $t.Title}}...</a>
+                <a id="site__name" href="{{ $t.Permalink }}">{{ $t.Title}}</a>
+                {{ $t := .Site.GetPage "/services" }}
+                <a id="site__name" href="{{ $t.Permalink }}">{{ $t.Title}}</a>
             </div>
             <div class="flex row">
                 <nav aria-label="page menu" class="flex row">
