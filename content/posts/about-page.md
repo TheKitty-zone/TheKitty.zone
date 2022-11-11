@@ -6,7 +6,7 @@ tags:
     - info
 ---
 
-Now with a [about page](https://thekitty.zone/about), it contains some really cool info you will like it.\
+Now with a [about page](https://thekitty.zone/about/), it contains some really cool info you will like it.\
 Yaay hihihihhi... Go read!
 
 

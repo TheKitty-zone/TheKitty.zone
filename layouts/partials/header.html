@@ -13,7 +13,8 @@
                 <a id="site__name" href="{{ .Site.BaseURL }}">
                     {{ .Site.Title }}
                 </a>
-                <a id="site__name" href="{{ .Site.BaseURL }}about">About...</a>
+                {{ $t := .Site.GetPage "/about" }}
+                <a id="site__name" href="{{ $t.Permalink }}">{{ $t.Title}}...</a>
             </div>
             <div class="flex row">
                 <nav aria-label="page menu" class="flex row">
