@@ -3,13 +3,13 @@ Change your colors and sizes of things here.
 Probability of breaking layout: 10%
 */
 
-    :root {
-      /* Change me */
-        --accent: #272c52;
-        --color-primary: #24292e;
-        --color-secondary: rgb(100, 100, 100);
-        --color-bg: white;
-        --item-bg: #f5f5f5;
+:root {
+    /* Change me */
+    --accent: #272c52;
+    --color-primary: #24292e;
+    --color-secondary: rgb(100, 100, 100);
+    --color-bg: white;
+    --item-bg: #f5f5f5;
     --scrollbar-bg: var(--color-bg);
     --scrollbar-thumb: var(--color-secondary);
     --shadow-shape: 2px 5px 8px;
