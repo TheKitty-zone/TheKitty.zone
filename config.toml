@@ -14,6 +14,7 @@ about = "Is this... Is this really real? Where are all the kittens and cats if t
 
 [params]
 skin = "macintosh"
+mainSections = "posts"
 #
 # For IndieAuth and the author card
 #
