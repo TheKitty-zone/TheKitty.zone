@@ -47,7 +47,7 @@ jobs:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
       - name: Set tag date-SHA
         id: tag
-        run: echo "tag=$(date +'%Y-%m-%d')-$(git rev-parse --short "$GITHUB_SHA")" >> $GITHUB_TAG
+        run: echo "tag=$(date +'%Y-%m-%d')-$(git rev-parse --short "$GITHUB_SHA")"
 
       - name: Build image and push to GitHub Container Registry
         uses: docker/build-push-action@v2
