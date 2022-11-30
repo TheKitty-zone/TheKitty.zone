@@ -45,6 +45,9 @@ jobs:
         uses: docker/metadata-action@v3
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+      - name: Set tag date-SHA
+        id: tag
+        run: echo "dateTag=$(date +'%Y-%m-%d')-$(git rev-parse --short "$GITHUB_SHA") >> $GITHUB_DATETAG
 
       - name: Build image and push to GitHub Container Registry
         uses: docker/build-push-action@v2
@@ -54,7 +57,7 @@ jobs:
           platforms: linux/amd64
           tags: |
             ghcr.io/11tuvork28/thekitty.zone:latest
-            ghcr.io/11tuvork28/thekitty.zone:$(date +'%Y-%m-%d')-$(git rev-parse --short "$GITHUB_SHA")
+            ghcr.io/11tuvork28/thekitty.zone:${{ $(date +'%Y-%m-%d')-$(git rev-parse --short "$GITHUB_SHA") }}
           labels: ${{ steps.meta.outputs.labels }}
           push: true
           
