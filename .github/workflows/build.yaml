@@ -56,8 +56,8 @@ jobs:
           file: Dockerfile
           platforms: linux/amd64
           tags: |
-            ghcr.io/TheKitty-zone/thekitty.zone:latest
-            ghcr.io/TheKitty-zone/thekitty.zone:${{ env.tag }}
+            ghcr.io/thekitty-zone/thekitty.zone:latest
+            ghcr.io/thekitty-zone/thekitty.zone:${{ env.tag }}
           labels: ${{ steps.meta.outputs.labels }}
           push: true
           
