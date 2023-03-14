@@ -20,7 +20,7 @@ mainSections = "posts"
 #
 githubuser = "11tuvork28"
 # twitteruser = "chihiro" # no @ in front
-# mastodon = "https://mastodon.technology/@chihiro" # full link to your instance profile
+mastodon = "https://thekitty.zone/@andromeda" # full link to your instance profile
 
 [permalinks]
 # Format for feed entry links. You probably don't need to change this.
