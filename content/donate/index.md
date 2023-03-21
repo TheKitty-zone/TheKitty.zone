@@ -2,11 +2,11 @@
 title: Donate to The Kitty Zone
 ---
 
-# Why donate?
+## Why donate?
 
 Well the infrastructure behind this project is quite expensive because I try to deliver a pleasing experience to you the user!
 
-# A short explanation of the infrastructure
+## A short explanation of the infrastructure
 
 
 ## Hosters
@@ -16,7 +16,7 @@ Well the infrastructure behind this project is quite expensive because I try to 
 
 ## Server
 
-### Hetzner:
+# Hetzner:
 - Kubernetes cluster:
     - Nodes:
         - 3x cx41 in Falkenstein, 4 cores with 16GB of ram and 180GB local SSD storage
@@ -29,22 +29,23 @@ Well the infrastructure behind this project is quite expensive because I try to 
 - Ceph cluster:
   - 2x root server with 8 cores, 64GB of ram and 8TB storage in Falkenstein
   - 1x root server with 8 cores, 64GB of ram and 1.7TB SSD storage
-### Netcup
+# Netcup
 - 1x root server with 6 cores, 32GB of ram and 800GB SSD storage
 
 
 This all has a cost of **326€** per month!\
 Currently I pay all this myself and that is fine, its within my monthly 'play money' budget.
 
-# Where to donate
+## Where to donate
 
-## Cryptocurrencies:
-<ul>
-    <li>Monero: <a href="monero:43GsD8kyArZPZdCN9N9NLAS4TmnGEf29RMTXWLQD3DCyb5Ad4hqNrEfQyWdSXbaNU4Sq5WQ2UfSspeNVDNc5C6uzPqsfBCR">43GsD8kyArZPZdCN9N9NLAS4TmnGEf29RMTXWLQD3DCyb5Ad4hqNrEfQyWdSXbaNU4Sq5WQ2UfSspeNVDNc5C6uzPqsfBCR</a></li>
-    <li> PIVX: DCgg7RQ7tgG1HjYYq1uE4L6Ax5ErM9A9fk</li>
-</ul>
+# Cryptocurrencies:
+- Monero:
+    - [43GsD8kyArZPZdCN9N9NLAS4TmnGEf29RMTXWLQD3DCyb5Ad4hqNrEfQyWdSXbaNU4Sq5WQ2UfSspeNVDNc5C6uzPqsfBCR">43GsD8kyArZPZdCN9N9NLAS4TmnGEf29RMTXWLQD3DCyb5Ad4hqNrEfQyWdSXbaNU4Sq5WQ2UfSspeNVDNc5C6uzPqsfBCR](monero:43GsD8kyArZPZdCN9N9NLAS4TmnGEf29RMTXWLQD3DCyb5Ad4hqNrEfQyWdSXbaNU4Sq5WQ2UfSspeNVDNc5C6uzPqsfBCR">43GsD8kyArZPZdCN9N9NLAS4TmnGEf29RMTXWLQD3DCyb5Ad4hqNrEfQyWdSXbaNU4Sq5WQ2UfSspeNVDNc5C6uzPqsfBCR)
+
+- PIVX: DCgg7RQ7tgG1HjYYq1uE4L6Ax5ErM9A9fk
+
 more coming soon...
 
-## Other ways:
+# Other ways:
 
  [Github sponsers](https://github.com/sponsors/11Tuvork28)
