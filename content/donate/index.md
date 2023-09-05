@@ -48,4 +48,4 @@ more coming soon...
 
 # Other ways:
 
- [Github sponsers](https://github.com/sponsors/11Tuvork28)
+ [Github sponsers](https://github.com/sponsors/89Q12)

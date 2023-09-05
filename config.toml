@@ -8,7 +8,7 @@ paginate = 6
 tag = "tags"
 
 [author]
-name = "11Tuvork28"
+name = "89Q12"
 image = "images/img.png"
 about = "Is this... Is this really real? Where are all the kittens and cats if this is the kitty zone?"
 
@@ -18,7 +18,7 @@ mainSections = "posts"
 #
 # For IndieAuth and the author card
 #
-githubuser = "11tuvork28"
+githubuser = "89Q12"
 # twitteruser = "chihiro" # no @ in front
 mastodon = "https://thekitty.zone/@andromeda" # full link to your instance profile
 
