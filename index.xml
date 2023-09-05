@@ -96,7 +96,7 @@ Well, I wanted it to be more then just a Y instance of Z project hence I came up
 <p>Also I feel the need to express myself on the internet while not being like everyone else just using social media, instead I also want to give back to people who don&rsquo;t want to jump through all the hoops to host all kind of services.</p>
 <h2 id="about-me">About me</h2>
 <p>I&rsquo;m just someone that is interested in DevOps and Software Engineering.<br>
-I go by 11tuvork28/Zozo depending on where you see me online.<br>
+I go by 89Q12/Zozo depending on where you see me online.<br>
 I my opinion social media is really really unproductive and to say the least its plain dangerous but who has their own homepage right? right? :&gt;)</p>
 <p>I love tinkering with Terraform, Ansible and Kubernetes k3s to be specific :) So I always try to deliver the experience while not taking anything not even more data then required, which leads quite good to the policy part.</p>
 <h2 id="polices">Polices</h2>
@@ -118,7 +118,7 @@ What gets logged across all services:</p>
 <p>You might ask yourself but can&rsquo;t she correlate requests to users?<br>
 No, I can&rsquo;t since these log lines I get from traefik don&rsquo;t contain any Personal indetifyable information about the client.<br>
 You don&rsquo;t trust me? Good!<br>
-You can just visit this repository <a href="https://github.com/11Tuvork28/k3s-infra/blob/d41397556d7be647ffdc8e6696a3f22e932d8c4d/deployments/traefik/traefik.yaml#L30">here</a> and check the traefik deployment file youself.</p>
+You can just visit this repository <a href="https://github.com/Thekitty-zone/k3s-infra/blob/d41397556d7be647ffdc8e6696a3f22e932d8c4d/deployments/traefik/traefik.yaml#L30">here</a> and check the traefik deployment file youself.</p>
  ]]></content:encoded></item><item><title>Donate to The Kitty Zone</title><link>https://www.thekitty.zone/donate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.thekitty.zone/donate/</guid><description>Why donate? Well the infrastructure behind this project is quite expensive because I try to deliver a pleasing experience to you the user!
 A short explanation of the infrastructure Hosters Netcup(One vps providing the mail server and acts as the S3 gateway) Hetzner(Houses 12 servers that run Kubernetes and Ceph) Server Hetzner: Kubernetes cluster: Nodes: 3x cx41 in Falkenstein, 4 cores with 16GB of ram and 180GB local SSD storage 3x cx41 in Nuremberg, 4 cores with 16GB of ram and 180GB local SSD storage 3x cx41 in Helsinki, 4 cores with 16GB of ram and 180GB local SSD storage Controlplanes: 1x cx21 in Falkenstein, 1 core with 4GB of ram and 40GB local SSD storage 1x cx21 in Nuremberg, 1 core with 4GB of ram and 40GB local SSD storage 1x cx21 in Helsinki, 1 core with 4GB of ram and 40GB local SSD storage Ceph cluster: 2x root server with 8 cores, 64GB of ram and 8TB storage in Falkenstein 1x root server with 8 cores, 64GB of ram and 1.</description><content:encoded><![CDATA[ <h2 id="why-donate">Why donate?</h2>
 <p>Well the infrastructure behind this project is quite expensive because I try to deliver a pleasing experience to you the user!</p>
@@ -177,7 +177,7 @@ Currently I pay all this myself and that is fine, its within my monthly &lsquo;p
 </ul>
 <p>more coming soon&hellip;</p>
 <h1 id="other-ways">Other ways:</h1>
-<p><a href="https://github.com/sponsors/11Tuvork28">Github sponsers</a></p>
+<p><a href="https://github.com/sponsors/89Q12">Github sponsers</a></p>
  ]]></content:encoded></item><item><title>Librarian</title><link>https://www.thekitty.zone/services/lbry/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.thekitty.zone/services/lbry/</guid><description>Sick of YouTube but hate Odyssee, well with Librarian you can use Lbry tracking free. Librarian is a privacy focused frontend for Odyssee aka Lbry.
 As always nothing gets logged except that someone accessed the service.</description><content:encoded><![CDATA[ <p>Sick of YouTube but hate Odyssee, well with <a href="https://codeberg.org/librarian/librarian">Librarian</a> you can use Lbry tracking free. Librarian is a privacy focused frontend for Odyssee aka Lbry.</p>
 <p>As always nothing gets logged except that <em>someone</em> accessed the service.</p>
