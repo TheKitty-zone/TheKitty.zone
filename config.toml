@@ -19,7 +19,7 @@ mainSections = "posts"
 # For IndieAuth and the author card
 #
 githubuser = "89Q12"
-mastodon = "https://undefined.social/@89Q12" # full link to your instance profile
+mastodon = "https://catcatnya.com/@89Q12" # full link to your instance profile
 
 [permalinks]
 # Format for feed entry links. You probably don't need to change this.
